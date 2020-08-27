@@ -8,8 +8,9 @@ from helpers import parent_id_sql as sql
 OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
-G_DRIVE_CLIENT_ID = "202264815644.apps.googleusercontent.com"
-G_DRIVE_CLIENT_SECRET = "X4Z3ca8xfWDb1Voo-F9a7ZxJ"
+G_DRIVE_CLIENT_ID = "657679195179-ibdmh3bj3soglbu5eps1n9mbq2rtnr34.apps.googleusercontent.com
+"
+G_DRIVE_CLIENT_SECRET = "8hz0tTV9S2atyWFVY3Ljf8vU"
 flow = None
 
 @Client.on_message(Filters.private & Filters.incoming & Filters.command(['auth']))
